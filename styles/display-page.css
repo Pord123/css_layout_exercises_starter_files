@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*{
+	font-size: 0px;
+}
+div [class*="box"]{
+
+	border: 1px solid;
+	border-color: black;
+	display: inline-block;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	width: 800px;
+	height: 500px;
+}
+
+.upper{
+	height: 200px;
+	width: inherit;
+}
+
+.lower{
+	height: 300px;
+	width: inherit;
+}
+
+.green-box{
+	width: 50%;
+	height: inherit;
+	background-color: green;
+}
+
+.blue-box{
+	width: 50%;
+	height: inherit;
+	background-color: blue;
+}
+
+.grey-box{
+	width: 33.33%;
+	height: inherit;
+	background-color: grey;
+}
+
+.black-box{
+	width: 33.33%;
+	height: inherit;
+	background-color: black;
+}
+
+.orange-box{
+	width: 33.33%;
+	height: inherit;
+	background-color: orange;
+}
